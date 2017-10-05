@@ -1,4 +1,4 @@
-# IST - Fundamentos da Programação (Problemas) 2017/2018
+# IST - Fundamentos da Programação (2017/2018)
 
 Este repositório é destinado à resolução dos exercícios disponibilizados pelo professor da disciplina.
 
