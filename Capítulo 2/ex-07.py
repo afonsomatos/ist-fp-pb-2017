@@ -5,3 +5,5 @@ pagamento = horas * ganho
 
 if horas > 40:
     pagamento += ganho * 2 * (horas - 40)
+
+print("Pagamento: ", pagamento)

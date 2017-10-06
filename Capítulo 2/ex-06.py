@@ -1,7 +1,13 @@
-ns = list(
-    map(int,
-        input("Escreva 3 numeros: ").split()
-    )
-)[:3]
+a, b, c = input("Escreva 3 números: ").split()
+a = int(a)
+b = int(b)
+c = int(c)
 
-print("O maior é {}".format(max(ns)))
+maior = c
+
+if b < a > c:
+    maior = a
+elif c < b > a:
+    maior = b
+
+print("O maior é ", maior)

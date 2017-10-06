@@ -5,11 +5,11 @@ hs = ms * 60
 ds = hs * 24
 
 d = s // ds
-s %= ds
+s = s % ds
 h = s // hs
-s %= hs
+s = s % hs
 m = s // ms
-s %= ms
+s = s % ms
 
 print("dias: {} horas: {} mins: {} segs: {}".format(
     d, h, m, s
