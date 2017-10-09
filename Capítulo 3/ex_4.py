@@ -1,5 +1,4 @@
-def area_circulo(valor):
-    return valor * valor * 3.14
+from ex_3 import area_circulo
 
 def area_coroa(r1, r2):
     if r1 > r2:
